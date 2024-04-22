@@ -1,0 +1,12 @@
+import streamlit as st
+import pandas as pd
+
+st.title('Welcome to "All About Erin" :bear:')
+st.header('Metadata Expert. Librarian. Coder. Artist.')
+st.subheader('Facts & Figures :abacus:')
+st.write(pd.DataFrame({
+  'Job Title': ['Metadata Analyst', 'Digital Asset Manager', 'Metadata Assistant', 'Reference Assistant'],
+  'Relevant Skill': ['Streamlit Python', 'Business Interviews', 'Taxonomy', 'Query Assistance']
+}))
+
+st.write('Sudowrite + authors = more books :book: on my shelf.')
