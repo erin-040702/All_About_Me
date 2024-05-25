@@ -13,10 +13,4 @@ st.write(pd.DataFrame({
 }))
 st.caption('This DataFrame briefly records relevant experience, see :rainbow[resume] for more.')
 
-st.write('Sudowrite + authors = more books :book: on my shelf.')
 
-st.subheader("Current NLP Project:")
-st.write("Coding to create enemies to lovers banter")
-code = '''def hello():
-    print("Hello, Streamlit!")'''
-st.code(code, language='python')
